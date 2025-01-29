@@ -1,0 +1,438 @@
+
+
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Robby Tubagus's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+
+    <body>
+<!--
+            <div class="intro">
+                <div class="content-section">
+                    <div class="text-section">
+                        <h2>Get to Know Me</h2>
+                        <h1>Integrity in coverage,<br>flexibility in writing</h1>
+                        <p>
+                            My love affair with written media started very early; growing up in the countryside does that to a person.
+                            As a kid, when there's no cable TV, you either play outside or read. I chose the latter. Starting with books 
+                            and newspaper comics, I ended up reading papers from the front page to the last page and tried my hand 
+                            at writing for the school paper.
+                        </p>
+                        <p>
+                            By the time I finished school, I knew this is what I wanted to do for a living. I wrote for small publications 
+                            while working on my bachelor's and got freelance gigs while doing my master's. The rest is history.
+                        </p>
+                    </div>
+                    <div class="image-section">
+                        <img src="images/pexels-duc-tinh-ngo-2147637857-29835052.jpg" alt="About Me Image">
+                    </div>
+                </div>
+                <div class="circular-button-section" >
+                    <a href="#nav" class="scrolly">
+                        <i class="fa fa-arrow-down"></i>
+                    </a>
+                </div>
+            </div>
+-->
+        <div id="intro">
+            <h1>Robby Tubagus's Portfolio<br />
+            </h1>
+            </p>
+            <ul class="actions">
+                <li><a href="#nav" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
+        <!-- Nav -->                                                                                                                                                                                                                                                           
+        <nav id="nav">
+            <ul class="links">
+                <li class="active" data-tab="projects"><a href="#">Projects</a></li>
+                <li data-tab="badges"><a href="#">Badges</a></li>
+                <li data-tab="internship"><a href="#">Internship</a></li>
+                <li data-tab="education"><a href="#">Education</a></li>
+                <li data-tab="research"><a href="#">Research</a></li>
+            </ul> 
+            <ul class="icons">	
+                <li>
+                    <span onclick="copyToClipboard('RobbyTubagus16@gmail.com')" style="cursor: pointer; ">
+                        RobbyTubagus16@gmail.com
+                    </span>
+                </li>                
+                <li>
+                    <a href="#" onclick="event.preventDefault();  window.open('https://linkedin.com/in/robby-tubagus', '_blank');" class="icon brands alt fa-linkedin">
+                        <span class="label">linkedin</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg', '_blank');" class="icon brands alt fa-github">
+                        <span class="label">GitHub</span>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- Project List -->
+        <div id="main">
+            <section id="projects" class="tab-content active">
+                <div class="project-card">
+                    <img src="images/customercare.png" alt="Customer Caring">
+                    <div>
+                        <h2>Customer Caring Platform</h2>
+                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; margin-bottom: -15px; font-size :small">
+                            <li style="margin-right: 20px; padding-left: 0px;">PHP Laravel</li>
+                            <li style="margin-right: 20px; padding-left: 0px;">JavaScript</li>
+                            <li style="margin-right: 20px; padding-left: 0px;">HTML</li>
+                            <li style="margin-right: 20px; padding-left: 0px;">CSS</li>
+                        </ul>
+                        <p>The Customer Caring Integrated Platform, built with PHP Laravel, manages customer data securely. It features role-based access (super admin to viewer), OTP authentication via Telegram, and a centralized dashboard for efficiency.</p>
+                    </div>
+                    <div class="act">
+                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Customer-Caring-Platform/tree/main', '_blank');" class="butt">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/Dashboard.png" alt="Data Visualization">
+                    <div>
+                        <h2>Chartered Bicycle Dashboard</h2>
+                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; margin-bottom: -15px; font-size :small">
+                            <li style="margin-right: 20px; padding-left: 0px;">Power BI</li>
+                        </ul>
+                        <p>Explore chartered bicycle demand through interactive Power BI visualizations. Analyze seasonal trends, temperature, wind speed, and humidity to understand how weather conditions impact bicycle usage throughout the year.</p>
+                    </div>
+                    <div class="act">
+                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Chartered-Bicycle-Dashboard', '_blank');" class="butt">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/Etl_pro.png" alt="ETL Crowdfunding">
+                    <div>
+                        <h2>Data Engineering of Crowdfunding Dataset</h2>
+                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; margin-bottom: -15px; font-size :small">
+                            <li style="margin-right: 20px; padding-left: 0px;">Python</li>
+                            <li style="margin-left:10px;padding-left: 0px;">SQL</li>
+                        </ul>
+                        <p>The ETL process with a crowdfunding dataset involves extracting raw data, transforming it to meet analysis needs, and loading it into MySQL for storage. This ensures the data is clean, consistent, and ready for reliable analysis and insights.</p>
+                    </div>
+                    <div class="act">
+                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Data-Engineering-of-Crowdfunding-Dataset', '_blank');" class="butt">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/telbot.png" alt="Customer Order Management Telegram Bot">
+                    <div>
+                        <h2>Customer Order Management Telegram Bot</h2>
+                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; margin-bottom: -15px; font-size :small">
+                            <li style="margin-right: 20px; padding-left: 0px;">Python</li>
+                        </ul>
+                        <p>This Telegram bot simplifies customer order management by enabling quick access to data in Google Sheets. It supports searching orders, monitoring parameters, and clearing recent chat messages efficiently.</p>
+                    </div>
+                    <div class="act">
+                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Customer-Order-Management-Telegram-Bot/tree/main', '_blank');" class="butt">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/loan.jpg" alt="Loan Prediction">
+                    <div>
+                        <h2>Loan Predictions</h2>
+                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; margin-bottom: -15px; font-size :small">
+                            <li style="margin-right: 20px; padding-left: 0px;">Python</li>
+                        </ul>
+                        <p>Achieved 98% prediction accuracy by performing feature importance analysis, conducting exploratory data analysis (EDA), and developing models using Random Forest and XGBoost for better performance</p>
+                    </div>
+                    <div class="act">
+                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Loan-Prediction', '_blank');" class="butt">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/fifa-21.jpg" alt="Data Cleaning Fifa21">
+                    <div>
+                        <h2>Fifa21 Dataset Cleansing</h2>
+                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; margin-bottom: -15px; font-size :small">
+                            <li style="margin-right: 20px; padding-left: 0px;">Python</li>
+                        </ul>
+                        <p>Cleaning and preprocessing the FIFA21 dataset by handling missing values, correcting inconsistencies, and standardizing player attributes like height, weight, and ratings to ensure accuracy and reliability for analysis.</p>
+                    </div>
+                    <div class="act">
+                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Fifa21-Dataset-Cleansing', '_blank');" class="butt">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/eda3.png" alt="EDA World Population">
+                    <div>
+                        <h2>Explanatory Data Analysis (EDA) of World Population</h2>
+                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; margin-bottom: -15px; font-size :small">
+                            <li style="margin-right: 20px; padding-left: 0px;">Python</li>
+                        </ul>
+                        <p>This EDA of the world population dataset involves investigating, organizing data, analyzing correlations, and exploring population insights by country and continent to uncover trends and patterns in global demographics.</p>
+                    </div>
+                    <div class="act">
+                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Explanatory-Data-Analysis-EDA-of-World-Population', '_blank');" class="butt">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/dataset-cover.jpg" alt="ML Asteroseismology">
+                    <div>
+                        <h2>Asteroseismology Classification</h2>
+                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; margin-bottom: -15px; font-size :small">
+                            <li style="margin-right: 20px; padding-left: 0px;">Python</li>
+                        </ul>
+                        <p>This section outlines building a machine learning model using Support Vector Machine (SVM) for asteroseismology classification, covering data loading, preparation, training, visualization, and model evaluation.</p>
+                    </div>
+                    <div class="act">
+                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Asteroseismology-Classification', '_blank');" class="butt">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section id="internship" class="tab-content">
+                <!-- Company Header -->
+                <div class="company-header">
+                    <div class="company-info">
+                        <div class="company-logo">
+                            <img src="images/arete.jpg" alt=""  />
+                        </div>
+                        <div class="job-description">
+                            <h2>Full Stack Web Developer Intern</h2>
+                            <h3>Arete IT Service</h3>
+                            <p>Dec 2024 - Jan 2025</p>
+                            <p>Vijayawada, India</p>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <ul class="timeline">
+                            <li>
+                                <span>Developing dynamic web application using PHP framework, by implementing the standard web structure focusing on security of the platform.</span>
+                            </li>
+                            <li>
+                                <span>Designing user friendly interface based on seamlessly experience of user interaction and user familiarity of the website layout.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Company Header -->
+                <div class="company-header">
+                    <div class="company-info">
+                        <div class="company-logo">
+                            <img src="images/879_indonesia_telkom_logo.jpg" alt=""  />
+                        </div>
+                        <div class="job-description">
+                            <h2>Data Analyst Intern</h2>
+                            <h3>Telkom Indonesia</h3>
+                            <p>Jul - Sep 2024</p>
+                            <p>Jambi, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <ul class="timeline">
+                            <li>
+                                <span>Automating customer data retrievals by integrating Google API and Telegram bot, reducing daily workload up to 20 minutes each day, while enhancing data access and management data for admin.</span>
+                            </li>
+                            <li>
+                                <span>Managing daily customer report, by tracking issue, documenting and raising issue ticket. By end of the week analyzing and reporting weekly performance, for further follow-ups by customer care section and improving their service efficiency.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Company Header -->
+                <div class="company-header">
+                    <div class="company-info">
+                        <div class="company-logo">
+                            <img src="images/idx.png" alt=""  />
+                        </div>
+                        <div class="job-description">
+                            <h2>Project-Based Virtual Intern: Data Analyst</h2>
+                            <h3>ID/X Partners x Rakamin Academy</h3>
+                            <p>Dec 2023 - Jan 2024</p>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <ul class="timeline">
+                            <li>
+                                <span>Developed a solid understanding of data science workflows during and through mentorship sessions. Take loan predictions as a final project achieved 98% ML prediction accuracy after conducting data preprocessing and by fine-tuning random forest and XGBoost models.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="education" class="tab-content">
+                <!-- Company Header -->
+                <div class="company-header" >
+                    <div class="company-info">
+                        <div class="company-logo">
+                            <img src="images/small_Koneru_Lakshmaiah_Education_Foundation_University_K_L_College_of_Engineering_10a343c70d_ca2f2a5cd3_dfafbbe81d.png" alt=""  />
+                        </div>
+                        <div class="job-description">
+                            <h2 style="text-transform: none;">B.Tech in Computer Science and Engineering</h2>
+                            <h3 >KL University</h3>
+                            <p><strong style="color: #555;">CGPA:</strong> 8.41 / 10</p>
+                            <p>2021 - On Going</p>
+                            <p>Vaddeswaram, Andhra Pradesh, India</p>
+                        </div>
+                    </div>
+                    <div class="awardee" style="display: flex; align-items: center; margin-left: 100px; padding: 10px; border: 1px solid #eee; border-radius: 8px; background-color: #fcfcfc; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);">
+                        <img src="images/sii.png" alt="Award Logo" class="company-logo" style="width: 80px; height: 80px; object-fit: contain; margin-right: 15px; border-radius: 8px;" />
+                        <div class="awardee-text" style="font-size: 16px; color: #333;">
+                            <h5 style="margin: 0 0 5px; font-weight: bold; font-size: 18px;">Awardee of Study of India Program</h5>
+                            <p style="margin: 0; font-size: 14px; color: #555;">100% Scholarship</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="company-header" >
+                    <div class="company-info">
+                        <img src="images/manic.png" alt="" class="company-logo" />
+                        <div class="job-description">
+                            <h2>SENIOR HIGH SCHOOL</h2>
+                            <h3 >MAN INSAN CENDEKIA JAMBI</h3>
+                            <p><strong style="color: #555;">CGPA:</strong> 8.81 / 10</p>
+                            <p>2018 - 2021</p>
+                            <p>Jambi, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="badges" class="tab-content">
+                <p style="font-size: small; text-align: right; margin-top:-30px">
+                    <span style="color: red;">*</span> Click on badge titles to see more credentials.
+                </p>
+                <div class="certifications-grid">
+                    <!-- Certification Item 1 -->
+                    <div class="certification-card">
+                        <img src="images/microsoft-certified-associate-badge.svg" alt="Organization 1 Logo" class="cert-image">
+                        <div class="cert-details">
+                            <a href="pdf/Credentials - robbytubagus-3059 _ Microsoft Learn.pdf" target="_blank" style="text-decoration: none; color: inherit;"><h3>Microsoft Certified: Power BI Data Analyst Associate</h3></a>
+                            <div class="cert-detailing">
+                                <p>Issued By : Microsoft</p>
+                                <p>Issued : [Nov, 2024]</p>
+                                <p>Valid Until : [Dec, 2025]</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Certification Item 2 -->
+                    <div class="certification-card">
+                        <img src="images/2023-07_Badge_SF-Certified_AI-Associate_High-Res.png" alt="Organization 2 Logo" class="cert-image">
+                        <div class="cert-details">
+                            <a href="pdf/Cert5080994_AIAssociate_20241019 (1).pdf" target="_blank" style="text-decoration: none; color: inherit;"><h3>Salesforce Certified AI Associate</h3></a>
+                            <div class="cert-detailing">
+                                <p>Issued By : Salesforce</p>
+                                <p>Issued : [Oct, 2024]</p>
+                                <p>Valid Until : [Nov, 2025]</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Certification Item 3 -->
+                    <div class="certification-card">
+                        <img src="images/aws-certified-solutions-architect-associate.png" alt="Organization 3 Logo" class="cert-image">
+                        <div class="cert-details">
+                            <a href="pdf/AWS Certified Solutions Architect - Associate certificate.pdf" target="_blank" style="text-decoration: none; color: inherit;"><h3>AWS Certified Solutions Architect - Associate</h3></a>
+                            <div class="cert-detailing">
+                                <p>Issued By : AWS</p>
+                                <p>Issued : [June, 2024]</p>
+                                <p>Valid Until : [June, 2027]</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- Certification Item 4 -->
+                    <div class="certification-card">
+                        <img src="images/aws-certified-cloud-practitioner.png" alt="Organization 4 Logo" class="cert-image">
+                        <div class="cert-details">
+                            <a href="pdf/AWS Certified Cloud Practitioner certificate.pdf" target="_blank" style="text-decoration: none; color: inherit;"><h3>AWS Certified Cloud Practitioner</h3></a>
+                            <div class="cert-detailing">
+                                <p>Issued By : AWS</p>
+                                <p>Issued : [Feb, 2024]</p>
+                                <p>Valid Until : [Feb, 2027]</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="research" class="tab-content">
+                <div class="publication">
+                    <div>
+                        <h3>Comparative Analysis of Kmeans Technique on Non Convex Cluster</h3>
+                        <div class="meta">
+                            <span class="badge">New</span>
+                            <span class="badge badge-conference">Article</span>
+                            <span>October 2024</span>
+                            <span>International Journal of Innovative Science and Research Technology</span>
+                        </div>
+                        <p>Gummadi VENKATA Nikhil Sai, Robby Tubagus, Vasala Rohith, Haritha Donavalli</p>
+                        <div class="abstract">
+                            <h4>Abstract</h4>
+                            <p>
+                                Clustering algorithms play a critical role in data analysis by grouping similar data points to reveal hidden pat-terns and structures. This study investigates the performance of several clustering algorithms using two distinct datasets: moons and circles. The primary focus is on evaluating and comparing the execution times of these algorithms to determine their efficiency and effectiveness in handling different types of data distributions. Through a series of experiments and performance measurements, this paper aims to provide a detailed analysis of each algorithm’s computational efficiency and suitability for various clustering tasks. The findings are expected to offer practical insights into the selection and application of clustering methods, contributing to enhanced data analysis techniques and informed decision-making in diverse fields.
+                            </p>
+                        </div>
+                        <div class="actions">
+                            <a href="#" onclick="event.preventDefault();  window.open('https://www.researchgate.net/profile/Robby-Tubagus/publication/386101552_Comparative_Analysis_of_Kmeans_Technique_on_Non_Convex_Cluster/links/674489cf868c966b932deb76/Comparative-Analysis-of-Kmeans-Technique-on-Non-Convex-Cluster.pdf', '_blank');" class="butt">
+                                <button>See full-text</button>
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+                <div class="publication">
+                    <div>
+                        <h3>Unlocking Deeper Data Insights on Social Media: Removing Hashtag and Tweets Spam for Improved Content Analysis</h3>
+                        <div class="meta">
+                            <span class="badge badge-conference">Conference Paper</span>
+                            <span>May 2024</span>
+                            <span>2024 5th International Conference for Emerging Technology (INCET)</span>
+                        </div>
+                        <p>Gummadi VENKATA Nikhil Sai, Robby Tubagus, Vasala Rohith, Haritha Donavalli</p>
+                        <div class="abstract">
+                            <h4>Abstract</h4>
+                            <p>
+                                Users of social media platforms now rely heavily on hashtags to communicate and retrieve messages about certain events, making these platforms an important source of news and information. However, the misuse of hashtags, including spamming and hijacking, can hinder effective communication and lead to the propagation of misinformation. This study proposes a robust methodology for identifying and addressing hashtag spam, emphasizing the crucial significance of data cleansing in ensuring the accuracy and reliability of information. The methodology includes removing punctuation marks and separating duplicate values to create a cleaner and standardized dataset. Hashtags are retrieved using a partially manual spam identifier, which involves human interaction to enhance the overall procedure and improve the precision of the proposed solution. The study also highlights the importance of real-time trend analysis in detecting and removing potentially harmful content, as well as the potential for adaptive filtering mechanisms to dynamically assess the relevance of hashtags within tweets. By integrating both spam and non-spam datasets, the study provides comprehensive insights into social media data and sets the stage for addressing real-time detection, the development of spam tactics, ethical concerns, and monitoring user behaviour. Overall, this research contributes to a nuanced understanding of the challenges of hashtag spam and the importance of data accuracy in social media analysis.
+                            </p>
+                        </div>
+                        <div class="actions">
+                            <a href="#" onclick="event.preventDefault();  window.open('https://ieeexplore.ieee.org/abstract/document/10593042', '_blank');" class="butt">
+                                <button>See full-text</button>
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Copyright -->
+        <div id="copyright" style="background-color: grey; height: 40px; display: flex; justify-content: center; align-items: center; color: whitesmoke; z-index: 1; margin-bottom: 0px;">
+            <ul style="display: flex; gap: 15px; list-style: none; margin: 0; padding: 0;">
+                <li>&copy; 2025 Robby Tubagus</li>
+            </ul>
+        </div>
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+
+
