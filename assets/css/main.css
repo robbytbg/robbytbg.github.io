@@ -3465,7 +3465,13 @@ ul.icons.alt li .icon:before {
 				}
 	
 			}
+			@media screen and (max-width: 500px) {
+
+				#intro h1 {
+					font-size: 1.5rem;
+				}
 	
+			}	
 /* Header */
 
 	#header {
