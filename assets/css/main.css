@@ -4993,7 +4993,7 @@ ul.icons.alt li .icon:before {
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: normal;  /* Prevent wrapping */
-		max-height: 50px;  /* Adjust height as necessary */
+		max-height: 55px;  /* Adjust height as necessary */
 		margin-right: 20px;
 	}
 	
