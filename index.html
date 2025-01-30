@@ -13,6 +13,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
 	</head>
 
     <body>
@@ -52,15 +53,22 @@
                 <li><a href="#nav" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
             </ul>
         </div>
-        <!-- Nav -->                                                                                                                                                                                                                                                           
-        <nav id="nav">
+                                                                                                                                                                                                                                             
+        <nav id="navv">
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
             <ul class="links">
                 <li class="active" data-tab="projects"><a href="#">Projects</a></li>
                 <li data-tab="badges"><a href="#">Badges</a></li>
                 <li data-tab="internship"><a href="#">Internship</a></li>
                 <li data-tab="education"><a href="#">Education</a></li>
                 <li data-tab="research"><a href="#">Research</a></li>
-            </ul> 
+            </ul>
+
+        
             <ul class="icons">	
                 <li>
                     <span onclick="copyToClipboard('RobbyTubagus16@gmail.com')" style="cursor: pointer; ">
@@ -80,14 +88,30 @@
 
             </ul>
         </nav>
+        <!-- Move the sidebar outside the nav -->
+<div class="sidebar">
+
+    <ul class="sidebar-links">
+        <li class="active" data-tab="projects"><a href="#">Projects</a></li>
+        <li data-tab="badges"><a href="#">Badges</a></li>
+        <li data-tab="internship"><a href="#">Internship</a></li>
+        <li data-tab="education"><a href="#">Education</a></li>
+        <li data-tab="research"><a href="#">Research</a></li>
+    </ul>
+
+</div>
+
         <!-- Project List -->
         <div id="main">
             <section id="projects" class="tab-content active">
                 <div class="project-card">
-                    <img src="images/customercare.png" alt="Customer Caring">
-                    <div>
-                        <h2>Customer Caring Platform</h2>
-                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; margin-bottom: -15px; font-size :small">
+
+                    <img style="cursor: pointer;" href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Customer-Caring-Platform/tree/main', '_blank');" src="images/customercare.png" alt="Customer Caring">
+                    <div class="text0">
+                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Customer-Caring-Platform/tree/main', '_blank');" class="butt">
+                            <h2>Customer Caring Platform</h2>
+                        </a>
+                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; font-size :small">
                             <li style="margin-right: 20px; padding-left: 0px;">PHP Laravel</li>
                             <li style="margin-right: 20px; padding-left: 0px;">JavaScript</li>
                             <li style="margin-right: 20px; padding-left: 0px;">HTML</li>
@@ -95,116 +119,90 @@
                         </ul>
                         <p>The Customer Caring Integrated Platform, built with PHP Laravel, manages customer data securely. It features role-based access (super admin to viewer), OTP authentication via Telegram, and a centralized dashboard for efficiency.</p>
                     </div>
-                    <div class="act">
-                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Customer-Caring-Platform/tree/main', '_blank');" class="butt">
-                            <span></span>
-                        </a>
-                    </div>
                 </div>
                 <div class="project-card">
-                    <img src="images/Dashboard.png" alt="Data Visualization">
-                    <div>
-                        <h2>Chartered Bicycle Dashboard</h2>
-                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; margin-bottom: -15px; font-size :small">
+                    <img style="cursor: pointer;" href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Chartered-Bicycle-Dashboard', '_blank');" src="images/Dashboard.png" alt="Data Visualization">
+                    <div class="text0">
+                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Chartered-Bicycle-Dashboard', '_blank');" class="butt">
+                            <h2>Chartered Bicycle Dashboard</h2>
+                        </a>
+                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; font-size :small">
                             <li style="margin-right: 20px; padding-left: 0px;">Power BI</li>
                         </ul>
                         <p>Explore chartered bicycle demand through interactive Power BI visualizations. Analyze seasonal trends, temperature, wind speed, and humidity to understand how weather conditions impact bicycle usage throughout the year.</p>
                     </div>
-                    <div class="act">
-                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Chartered-Bicycle-Dashboard', '_blank');" class="butt">
-                            <span></span>
-                        </a>
-                    </div>
                 </div>
                 <div class="project-card">
-                    <img src="images/Etl_pro.png" alt="ETL Crowdfunding">
-                    <div>
-                        <h2>Data Engineering of Crowdfunding Dataset</h2>
-                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; margin-bottom: -15px; font-size :small">
+                    <img style="cursor: pointer;" href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Data-Engineering-of-Crowdfunding-Dataset', '_blank');" src="images/Etl_pro.png" alt="ETL Crowdfunding">
+                    <div class="text0">
+                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Data-Engineering-of-Crowdfunding-Dataset', '_blank');" class="butt">
+                            <h2>Data Engineering of Crowdfunding Dataset</h2>
+                        </a>
+                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; font-size :small">
                             <li style="margin-right: 20px; padding-left: 0px;">Python</li>
                             <li style="margin-left:10px;padding-left: 0px;">SQL</li>
                         </ul>
                         <p>The ETL process with a crowdfunding dataset involves extracting raw data, transforming it to meet analysis needs, and loading it into MySQL for storage. This ensures the data is clean, consistent, and ready for reliable analysis and insights.</p>
                     </div>
-                    <div class="act">
-                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Data-Engineering-of-Crowdfunding-Dataset', '_blank');" class="butt">
-                            <span></span>
-                        </a>
-                    </div>
                 </div>
                 <div class="project-card">
-                    <img src="images/telbot.png" alt="Customer Order Management Telegram Bot">
-                    <div>
-                        <h2>Customer Order Management Telegram Bot</h2>
-                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; margin-bottom: -15px; font-size :small">
+                    <img style="cursor: pointer;" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Customer-Order-Management-Telegram-Bot/tree/main', '_blank');" src="images/telbot.png" alt="Customer Order Management Telegram Bot">
+                    <div class="text0">
+                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Customer-Order-Management-Telegram-Bot/tree/main', '_blank');" class="butt">
+                            <h2>Customer Order Management Telegram Bot</h2>
+                        </a>
+                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; font-size :small">
                             <li style="margin-right: 20px; padding-left: 0px;">Python</li>
                         </ul>
                         <p>This Telegram bot simplifies customer order management by enabling quick access to data in Google Sheets. It supports searching orders, monitoring parameters, and clearing recent chat messages efficiently.</p>
                     </div>
-                    <div class="act">
-                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Customer-Order-Management-Telegram-Bot/tree/main', '_blank');" class="butt">
-                            <span></span>
-                        </a>
-                    </div>
                 </div>
                 <div class="project-card">
-                    <img src="images/loan.jpg" alt="Loan Prediction">
-                    <div>
-                        <h2>Loan Predictions</h2>
-                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; margin-bottom: -15px; font-size :small">
+                    <img style="cursor: pointer;" href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Loan-Prediction', '_blank');" src="images/loan.jpg" alt="Loan Prediction">
+                    <div class="text0">
+                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Loan-Prediction', '_blank');" class="butt">
+                            <h2>Loan Predictions</h2>
+                        </a>
+                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; font-size :small">
                             <li style="margin-right: 20px; padding-left: 0px;">Python</li>
                         </ul>
                         <p>Achieved 98% prediction accuracy by performing feature importance analysis, conducting exploratory data analysis (EDA), and developing models using Random Forest and XGBoost for better performance</p>
                     </div>
-                    <div class="act">
-                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Loan-Prediction', '_blank');" class="butt">
-                            <span></span>
-                        </a>
-                    </div>
                 </div>
                 <div class="project-card">
-                    <img src="images/fifa-21.jpg" alt="Data Cleaning Fifa21">
-                    <div>
-                        <h2>Fifa21 Dataset Cleansing</h2>
-                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; margin-bottom: -15px; font-size :small">
+                    <img style="cursor: pointer;" href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Fifa21-Dataset-Cleansing', '_blank');" src="images/fifa-21.jpg" alt="Data Cleaning Fifa21">
+                    <div class="text0">
+                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Fifa21-Dataset-Cleansing', '_blank');" class="butt">
+                            <h2>Fifa21 Dataset Cleansing</h2>
+                        </a>
+                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; font-size :small">
                             <li style="margin-right: 20px; padding-left: 0px;">Python</li>
                         </ul>
                         <p>Cleaning and preprocessing the FIFA21 dataset by handling missing values, correcting inconsistencies, and standardizing player attributes like height, weight, and ratings to ensure accuracy and reliability for analysis.</p>
                     </div>
-                    <div class="act">
-                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Fifa21-Dataset-Cleansing', '_blank');" class="butt">
-                            <span></span>
-                        </a>
-                    </div>
                 </div>
                 <div class="project-card">
-                    <img src="images/eda3.png" alt="EDA World Population">
-                    <div>
-                        <h2>Explanatory Data Analysis (EDA) of World Population</h2>
-                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; margin-bottom: -15px; font-size :small">
+                    <img style="cursor: pointer;" href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Explanatory-Data-Analysis-EDA-of-World-Population', '_blank');" src="images/eda3.png" alt="EDA World Population">
+                    <div class="text0">
+                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Explanatory-Data-Analysis-EDA-of-World-Population', '_blank');" class="butt">
+                            <h2>Explanatory Data Analysis (EDA) of World Population</h2>
+                        </a>
+                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; font-size :small">
                             <li style="margin-right: 20px; padding-left: 0px;">Python</li>
                         </ul>
                         <p>This EDA of the world population dataset involves investigating, organizing data, analyzing correlations, and exploring population insights by country and continent to uncover trends and patterns in global demographics.</p>
                     </div>
-                    <div class="act">
-                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Explanatory-Data-Analysis-EDA-of-World-Population', '_blank');" class="butt">
-                            <span></span>
-                        </a>
-                    </div>
                 </div>
                 <div class="project-card">
-                    <img src="images/dataset-cover.jpg" alt="ML Asteroseismology">
-                    <div>
-                        <h2>Asteroseismology Classification</h2>
-                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; margin-bottom: -15px; font-size :small">
+                    <img style="cursor: pointer;" href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Asteroseismology-Classification', '_blank');" src="images/dataset-cover.jpg" alt="ML Asteroseismology">
+                    <div class="text0">
+                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Asteroseismology-Classification', '_blank');" class="butt">
+                            <h2>Asteroseismology Classification</h2>
+                        </a>
+                        <ul style="list-style-type: disc; display: flex; padding-left: -20px; font-size :small">
                             <li style="margin-right: 20px; padding-left: 0px;">Python</li>
                         </ul>
                         <p>This section outlines building a machine learning model using Support Vector Machine (SVM) for asteroseismology classification, covering data loading, preparation, training, visualization, and model evaluation.</p>
-                    </div>
-                    <div class="act">
-                        <a href="#" onclick="event.preventDefault();  window.open('https://github.com/robbytbg/Asteroseismology-Classification', '_blank');" class="butt">
-                            <span></span>
-                        </a>
                     </div>
                 </div>
             </section>

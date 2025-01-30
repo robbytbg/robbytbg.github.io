@@ -3,6 +3,25 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+// Select the burger icon and sidebar
+const burger = document.querySelector('.burger');
+const sidebar = document.querySelector('.sidebar');
+
+// Toggle sidebar when burger is clicked
+burger.addEventListener('click', () => {
+    sidebar.classList.toggle('open');
+    burger.classList.toggle('active');
+});
+
+// Close sidebar when clicking outside of it
+document.addEventListener('click', (event) => {
+    if (!sidebar.contains(event.target) && !burger.contains(event.target)) {
+        sidebar.classList.remove('open');
+        burger.classList.remove('active');
+    }
+});
+
+
 
 function copyToClipboard(text) {
 	// Create a temporary input element
@@ -40,9 +59,9 @@ window.addEventListener('scroll', function() {
 	intro.style.opacity = opacity;
 });
 
-	// Select all tab links and contents
-const tabs = document.querySelectorAll('nav ul.links li');
-const tabContents = document.querySelectorAll('.tab-content');
+// Select all tab links and contents
+const tabs = document.querySelectorAll('#navv ul.links li, .sidebar-links li'); // Combine both top nav and sidebar
+const tabContents = document.querySelectorAll('.tab-content'); // Ensure content has the tab-content class
 
 // Add click event to each tab
 tabs.forEach((tab) => {
@@ -60,7 +79,6 @@ tabs.forEach((tab) => {
         document.getElementById(targetTab).classList.add('active');
     });
 });
-
 
 (function($) {
 
