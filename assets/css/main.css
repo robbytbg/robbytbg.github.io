@@ -3458,46 +3458,6 @@ ul.icons.alt li .icon:before {
 				opacity: 0;
 			}
 
-		@media screen and (max-width: 980px) {
-
-			#intro {
-				padding: 4rem 4rem 2rem 4rem ;
-				min-height: 90vh;
-			}
-
-				#intro p br {
-					display: none;
-				}
-
-				#intro + #header {
-					margin-top: -14rem;
-				}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			#intro {
-				padding: 3rem 2rem 1rem 2rem ;
-				min-height: 80vh;
-			}
-
-				#intro h1 {
-					font-size: 3.25rem;
-					line-height: 1.1;
-					margin-bottom: 1rem;
-				}
-
-				#intro p {
-					font-size: 1rem;
-					margin-top: 0rem;
-				}
-
-				#intro .actions {
-					display: none;
-				}
-
-		}
 
 /* Header */
 
@@ -3839,6 +3799,29 @@ ul.icons.alt li .icon:before {
 
     #navv ul.links {
         display: none; /* Hide top menu on small screens */
+    }
+
+}
+/* Default email format */
+.email {
+    font-size: 16px;
+}
+
+/* Replace @ with @ symbol on small screens */
+.at-symbol {
+    display: none;
+	justify-items: center;
+	margin-right: 10px;
+}
+
+/* Media query for screens smaller than 768px (you can adjust this value as needed) */
+@media (max-width: 768px) {
+    .email {
+        display: none;
+    }
+
+    .at-symbol {
+        display: block; /* Hide the '@' symbol on small screens */
     }
 
 }
